@@ -1,0 +1,462 @@
+/* ===========================
+   VENTANA
+=========================== */
+
+QMainWindow{
+    background:#0F0F0F;
+}
+
+QWidget{
+    background:#0F0F0F;
+    color:#FFFFFF;
+    font-family:"Inter";
+    font-size:14px;
+}
+
+
+/* ===========================
+   SIDEBAR
+=========================== */
+
+#sidebar{
+
+    background:#171717;
+
+    border:1px solid #2D2D2D;
+
+    border-radius:18px;
+
+}
+
+
+/* ===========================
+   PANEL PRINCIPAL
+=========================== */
+
+#content{
+
+    background:#171717;
+
+    border:1px solid #2D2D2D;
+
+    border-radius:18px;
+
+}
+
+
+/* ===========================
+   LOGO
+=========================== */
+
+#logo{
+
+    color:#E39700;
+
+    font-size:30px;
+
+    font-weight:bold;
+
+}
+
+#version{
+
+    color:#8A8A8A;
+
+    font-size:12px;
+
+}
+
+
+/* ===========================
+   MENÚ
+=========================== */
+
+#menuButton{
+
+    background:transparent;
+
+    border:none;
+
+    border-radius:10px;
+
+    padding-left:18px;
+
+    text-align:left;
+
+    color:white;
+
+    font-size:15px;
+
+}
+
+#menuButton:hover{
+
+    background:#232323;
+
+}
+
+#menuButton:pressed{
+
+    background:#E39700;
+
+    color:black;
+
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+#header{
+
+    background:#171717;
+
+    border:1px solid #2D2D2D;
+
+    border-radius:18px;
+
+}
+
+#urlInput{
+
+    background:#101010;
+
+    border:1px solid #353535;
+
+    border-top-left-radius:10px;
+
+    border-bottom-left-radius:10px;
+
+    border-top-right-radius:0;
+
+    border-bottom-right-radius:0;
+
+    padding-left:16px;
+
+    font-size:15px;
+
+    color:white;
+
+}
+
+#urlInput:focus{
+
+    border:1px solid #E39700;
+
+}
+
+#searchButton{
+
+    background:#E39700;
+
+    color:black;
+
+    border:none;
+
+    border-top-right-radius:10px;
+
+    border-bottom-right-radius:10px;
+
+    border-top-left-radius:0;
+
+    border-bottom-left-radius:0;
+
+    font-size:15px;
+
+    font-weight:bold;
+
+}
+
+#searchButton:hover{
+
+    background:#F3B43A;
+
+}
+
+#topButton{
+
+    color:#DDDDDD;
+
+    font-size:15px;
+
+}
+
+/* ===========================
+   MANGA CARD
+=========================== */
+
+#mangaCard{
+
+    background:#171717;
+
+    border:1px solid #2D2D2D;
+
+    border-radius:18px;
+
+}
+
+#cover{
+
+    background:#101010;
+
+    border:1px solid #3A3A3A;
+
+    border-radius:10px;
+
+}
+
+#mangaTitle{
+
+    color:#E39700;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+}
+
+#infoLabel{
+
+    color:#D5D5D5;
+
+    font-size:14px;
+
+}
+
+/* ===========================
+   ESTADO
+=========================== */
+
+#status{
+
+    color:#8A8A8A;
+
+}
+
+/* ---------- RATING ---------- */
+
+#rating{
+
+    color:#FFD54A;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+}
+
+/* ===========================
+   TABLA DE CAPÍTULOS
+=========================== */
+
+#chapterTable{
+
+    background:#171717;
+
+    border:1px solid #2D2D2D;
+
+    border-radius:18px;
+
+}
+
+#chapterTitle{
+
+    color:#E39700;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+}
+
+#chapterList{
+
+    background:#111111;
+
+    border:1px solid #2D2D2D;
+
+    border-radius:10px;
+
+    color:white;
+
+    padding:6px;
+
+}
+
+#chapterList::item{
+
+    padding:10px;
+
+    border-radius:8px;
+
+}
+
+#chapterList::item:hover{
+
+    background:#242424;
+
+}
+
+#chapterList::item:selected{
+
+    background:#E39700;
+
+    color:black;
+
+}
+
+#topButton{
+
+    background:transparent;
+
+    border:none;
+
+    color:white;
+
+    font-size:14px;
+
+    padding:8px 12px;
+
+}
+
+#topButton:hover{
+
+    background:#242424;
+
+    border-radius:8px;
+
+}
+
+/* ===========================
+   BOTÓN ACTIVO
+=========================== */
+
+QPushButton[active="true"]{
+
+    background:#3A2806;
+
+    border:1px solid #E39700;
+
+    color:#E39700;
+
+    font-weight:bold;
+
+}
+
+QPushButton[active="true"]:hover{
+
+    background:#4A3410;
+
+}
+
+/* ===========================
+   BOTONES MANGA
+=========================== */
+
+#goldButton{
+
+    background:#E39700;
+
+    color:black;
+
+    border:none;
+
+    border-radius:10px;
+
+    padding:10px 18px;
+
+    font-weight:bold;
+
+}
+
+#goldButton:hover{
+
+    background:#F3B43A;
+
+}
+
+#darkButton{
+
+    background:#1B1B1B;
+
+    color:white;
+
+    border:1px solid #3A3A3A;
+
+    border-radius:10px;
+
+    padding:10px 18px;
+
+}
+
+#darkButton:hover{
+
+    border:1px solid #E39700;
+
+}
+
+#synopsis{
+
+    color:#BDBDBD;
+
+    line-height:22px;
+
+}
+
+#title{
+
+    color:#E39700;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+}
+
+/* ===========================
+   TABLA
+=========================== */
+
+QTableWidget{
+
+    background:#111111;
+
+    border:1px solid #2D2D2D;
+
+    border-radius:10px;
+
+    color:white;
+
+    gridline-color:#2D2D2D;
+
+    selection-background-color:#E39700;
+
+    selection-color:black;
+
+    font-size:14px;
+
+}
+
+QHeaderView::section{
+
+    background:#1B1B1B;
+
+    color:#E39700;
+
+    border:none;
+
+    border-bottom:1px solid #2D2D2D;
+
+    padding:8px;
+
+    font-weight:bold;
+
+}
+
+QTableCornerButton::section{
+
+    background:#1B1B1B;
+
+    border:none;
+
+}
